@@ -1,0 +1,45 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+  font-family: 'Patua One', helvetica neue, arial, sans-serif;
+  color: white;
+  background-color: black;
+  background-image: url(../images/ray.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+h2 {
+  border-bottom: 1px solid gray;
+
+}
+a { 
+  color: orange;
+}
+a:hover {
+  color: purple;
+}
+p, li { 
+  font-size: 16px;
+  line-height: 24px;
+}
+img {
+  float: right;
+  width: 200px;
+}
+#title {
+  float: left;
+}
+#poster {
+  float: right;
+  /*width: 20px*/
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+#summary {
+  clear: both;
+  background-color: gray;
+  padding: 20px;
+  border: 1px solid black;
+  margin-top: 20px;
+}
