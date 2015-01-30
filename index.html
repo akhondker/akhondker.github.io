@@ -1,59 +1,89 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>INDIecon</title>
+  <title>Bootstrap Me</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Logo Font -->
+  <link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Sigmar+One|Patua+One' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <!-- Font Awesome -->
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="ownstyle.css">
 </head>
 <body>
-  <div id="wrapper">
-    <h1>INDIecon</h1>
-    <p>
-      <img src="camera.jpg">
-    </p>
-    <h2>Exploring the economics of indie film!</h2>
-    
-        <a href="Updated_indieecon.html">Click here for the updated site!</a></li>
+<div class="container">
+      <nav class="navbar navbar-inverse" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">INDIEecon</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="index_wk2.html">
+                <i class="fa fa-home"></i>
+                Home
+              </a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                <i class="fa fa-film"></i>
+                Links
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Film Financing</a></li>
+                <li><a href="#">Production</a></li>
+                <li><a href="#">Distribution</a></li>
+                
+              </ul>
+            </li>
+          </ul>
+          
+        </div>
+      </nav>
+    </div>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>INDIEecon</h1>
+      
+      <div class="minijumbotron">
+      <h2>Exploring the economics of indie film!</h2>
+      </div>
+
+      <h3><a href="index_wk1.html" class="btn btn-primary">Click here for the main site!</a></h3>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="film_finance.jpg" width="200" border="1">
+        <h4>Film Financing</h4>
+        <p>Primer on how financing flows through the indie film industry.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="film-production.jpg" width="250" border="1">
+        <h4>Production</h4>
+        <p>How new and innovative production techniques support micro-budget indie film.</p>
+      </div>
+      <div class="col-md-3">
+        <img src="vod.jpg" width="200" border="1">
         
-    
-    <section>
-      <h4>Connect With Me</h4>
-      <ul>
-        <li><a href="mailto:akhondker2015@kellogg.northwestern.edu">Email</a></li>
-        <li><a href="http://twitter.com/akhondker">Twitter</a></li>
-        <li><a href="http://linkedin.com/in/akhondker">LinkedIn</a></li>
-      </ul>
-    </section>
-    <section>
-      <h4>Summary</h4>
-      <p>
-        In a world of super-sized comic book movie franchises and summer tentpole blockbusters, the niche indie film genre has declined due to  reduced financing and theatrical distribution support.  This site will attempt to delve into the financials behind these films and explore new film financing models.
-      </p>
-    </section>
-    <section>
-      <h4>Experience</h4>
-      <section>
-        <h4><i>Content Acquisition, Dish Network</i></h4>
-        <li>Pricing and negotiation with network  content providers</li>
-      </section>
-      <section>
-        <h4><i>Finance Manager, GE Energy</i></h4>
-        <li><p>Financial Planning and Analysis</li></p>
-      </section>
-    </section>
-    <section>
-      <h4>Skills</h4>
-      <ul>
-        <li>Financial models</li>
-        <li>Content expert</li>
-      </ul>
-    </section>
-    <section>
-      <h4>MBA Focus</h4>
-      <ul>
-        <li>Media Mangement, Finance, Strategy</li>
-      </ul>
-    </section>
+        <h4>Distribution</h4>
+        <p>Theatrical, Digital, EST, and beyond. </p>
+
+        <!-- you can use "offset" to give some blank space for columns -->
+      </div>
+    </div>
   </div>
 </body>
 </html>
