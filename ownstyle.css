@@ -19,8 +19,8 @@ color: black;
 
 .btn-primary {
 color: #fff;
-background-color: orange;
-border-color: orange;
+background-color: #337ab7;
+border-color: #337ab7;
 }
 
 body {
@@ -32,12 +32,41 @@ body {
   color: #ff3061;
   padding-top: 20px;
 }
+
+/*.navbar-default .navbar-nav > li > a:hover{color:#FF0000;}
+.navbar-inverse .navbar-nav>li>a{ color: #FFFFFF;}*/
+
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+
 h1.title {
   padding: 0 30px 30px 0;
 }
 h2 {
   font-size: 22px;
 }
+
+h3 {
+  color: #000000
+}
+
 .rating {
   font-size: 0.4em;
   text-transform: uppercase;
@@ -54,3 +83,5 @@ h2 {
 .review {
   margin-bottom: 30px;
 }
+
+
